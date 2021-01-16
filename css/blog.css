@@ -24,6 +24,10 @@
     transform: rotate(360deg);
 }
 
+#blog iframe{
+    height: 220px;
+}
+
 footer .contenedor{
     display: flex;
     flex-wrap: wrap;
@@ -41,4 +45,8 @@ footer .contenedor{
 .sociales a{
     color: #333;
     text-decoration: none;
+}
+.sociales a:hover{
+    font-size: 32px;
+    border-bottom: 2px solid #333;
 }
