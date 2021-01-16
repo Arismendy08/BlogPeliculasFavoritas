@@ -14,6 +14,16 @@
     max-width: 280px;
     max-height: 320px;
 }
+
+#blog img:hover{
+    max-width: 300px;
+    max-height: 340px;
+    border-radius: 20%;
+    transition:all .5s ease-in-out;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
 footer .contenedor{
     display: flex;
     flex-wrap: wrap;
